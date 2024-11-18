@@ -57,7 +57,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      <img src="/assets/images/intro.jpg" alt="Your Name" width="600">
+      <img src="assets/images/intro.jpg" alt="Your Name" width="600">
 
       I’m a data scientist with **multiple years** of experience in **machine learning**, **data analytics**, and **NLP**, focused on delivering data-driven solutions. 
       At **Netmarble**, I analyzed millions of **game user behaviors** with SQL (BigQuery) and Python, driving strategic insights.
@@ -92,7 +92,7 @@ experiences:
       - role: Data Science Intern
         time: 2024.05 - 2024.08
         company: Financial Industry Regulatory Authority (FINRA), Remote
-        logo: /assets/images/finra.jpg
+        logo: assets/images/finra.jpg
         details: |
           -	Contributed to two R&D projects using **NLP** and **Large Language Models** (Claude-3.5-haiku) to enhance FINRA’s regulatory capabilities.
           -	Applied large language models (LLMs) and **few-shot learning** to create **synthetic datasets** for evaluating Named Entity Recognition (NER) and relationship extraction models.
@@ -102,7 +102,7 @@ experiences:
       - role: AI/ML Team Lead, Capstone project
         time: 2023.08 - 2024.05
         company: Alliant National Insurance Company, Longmont, CO
-        logo: /assets/images/alliant.jpg
+        logo: assets/images/alliant.jpg
         details: |
             - Led a team to develop an **LLM-based generator** for email question-answering for underwriting attorneys, using **GPT-3.5-Turbo** and *OpenAI API* on **Azure**.
             -	Converted email text data into numerical representations using the **text embedding** model and implemented **semantic search with FAISS**, ensuring accurate retrieval of historical emails.
@@ -111,7 +111,7 @@ experiences:
       - role: Data Scientist
         time: 2019.05 - 2022.05
         company: Netmarble, Seoul, South Korea
-        logo: /assets/images/netmarble.jpg
+        logo: assets/images/netmarble.jpg
         details: |
           -	*User Behavior Analysis for Strategic Decision-Making*: Analyzed millions of game user behaviors with **SQL (BigQuery)** and **Python** to drive actionable insights for product strategy and decision-making.
           -	*Data Visualization & Reporting*: Delivered insights to stakeholders by designing and maintaining dashboards in **Looker** and automating data pipelines with **Airflow**.
