@@ -1,0 +1,234 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jooseok Lee
+    tagline: Data Scientist (Greencard holder, South Korea citizenship)
+    avatar: JS_Passport-style photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ljsilverstar@gmail.com
+    phone: 303 810 3826
+    timezone: America/Colorado # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: 
+    website: https://jooseokleecu.github.io/online-cv/print # Include the full website URL, including "http://" or "https://".
+    linkedin: ljsilverstar
+    xing: 
+    github: jooseokLeeCU
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: Korean
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Hiking
+          link:
+
+        - item: Bike Riding
+          link:
+
+        - item: Swimming
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      <img src="/assets/images/intro.jpg" alt="Your Name" width="600">
+
+      I’m a data scientist with **multiple years** of experience in **machine learning**, **data analytics**, and **NLP**, focused on delivering data-driven solutions. 
+      At **Netmarble**, I analyzed millions of **game user behaviors** with SQL (BigQuery) and Python, driving strategic insights.
+
+      In recent roles at **FINRA** and **Alliant National Title Insurance**, I leveraged large language models and NLP to streamline complex **text data processing**.
+
+      Currently pursuing a **Master’s in Computer Science** (Data Science and Engineering) at the **University of Colorado Boulder**, I specialize in Python, SQL, Scikit-Learn, Azure, and Google Cloud, with a strong ability to turn business challenges into actionable data solutions.
+      [Download my resume/CV here](/assets/cv/RESUME_JOOSEOKLEE_UPTODATE.pdf).
+education:
+    title: Education
+    info:
+      - degree: MS in Computer Science
+        university: University of Colorado Boulder
+        time: 2022 - 2024
+        details: |
+          Concenstration: Data Science and Engineering
+          GPA: 3.97
+          Experiences:
+            - Course Manager of Undergraduate Machine Learning Course
+            - Course Facilitator of Graduate Machine Learning/Deep Learning Courses
+          Relevant Courses:
+            - Machine Learning (CSCI 5622) - Grade: A
+      - degree: Ph.D. in Industrial Engineering
+        university: Pohang University of Science and Technology
+        time: 2012 - 2019
+        details: |
+          Research Area: Business process management
+
+experiences:
+    title: Experiences
+    info:
+      - role: Data Science Intern
+        time: 2024.05 - 2024.08
+        company: Financial Industry Regulatory Authority (FINRA), Remote
+        logo: /assets/images/finra.jpg
+        details: |
+          -	Contributed to two R&D projects using **NLP** and **Large Language Models** (Claude-3.5-haiku) to enhance FINRA’s regulatory capabilities.
+          -	Applied large language models (LLMs) and **few-shot learning** to create **synthetic datasets** for evaluating Named Entity Recognition (NER) and relationship extraction models.
+          -	Used large language models (LLMs) and **prompt engineering** to **extract key information** from public offering documents, achieving an F1 score over 80%, surpassing the previous model's performance. 
+          -	***Recognized as one of six outstanding interns*** from a cohort of 80 for contributions and achievements.
+
+      - role: AI/ML Team Lead, Capstone project
+        time: 2023.08 - 2024.05
+        company: Alliant National Insurance Company, Longmont, CO
+        logo: /assets/images/alliant.jpg
+        details: |
+            - Led a team to develop an **LLM-based generator** for email question-answering for underwriting attorneys, using **GPT-3.5-Turbo** and *OpenAI API* on **Azure**.
+            -	Converted email text data into numerical representations using the **text embedding** model and implemented **semantic search with FAISS**, ensuring accurate retrieval of historical emails.
+            - ***Awarded 1st prize*** for the best project among CU Boulder graduate and undergraduate level projects for Alliant National.
+
+      - role: Data Scientist
+        time: 2019.05 - 2022.05
+        company: Netmarble, Seoul, South Korea
+        logo: /assets/images/netmarble.jpg
+        details: |
+          -	*User Behavior Analysis for Strategic Decision-Making*: Analyzed millions of game user behaviors with **SQL (BigQuery)** and **Python** to drive actionable insights for product strategy and decision-making.
+          -	*Data Visualization & Reporting*: Delivered insights to stakeholders by designing and maintaining dashboards in **Looker** and automating data pipelines with **Airflow**.
+          -	*Revenue Prediction*: Developed **CNN** and **Prophet-based models** to predict revenue for new mobile games, providing actionable insights to product teams.     
+          -	*Data Storytelling & Analysis*: Led **root cause analysis** with regression modeling, identifying issues with new-user incentives and boosting **buying rates by 26%** through actionable recommendations.
+          -	*Clustering & Recommendations*: Developed a **clustering-based recommendation system** for a global mobile game, driving a **5% increase in sales growth rate** through targeted user behavior segments.
+          -	*A/B Testing*: Conducted in-depth **A/B testing** with **t-tests** to validate the effectiveness of recommendation system and to optimize it.
+
+projects:
+    title: Projects
+    intro: >
+      These projects have been adapted to demonstrate key data science techniques and algorithms. 
+      In some cases, I have modified them to respect confidentiality, using publicly available datasets in place of proprietary project data.
+    assignments:
+      - title: Emotion-Cause-Pair-Extraction with BERT fine-tuning
+        link: "https://github.com/jooseokLeeCU/Emotion-Cause-Pair-Extraction-with-BERT-FineTuning"
+        tagline: "Fine-tuning **text classification** & **Question answering** BERT models for extracting emotion-cause pairs from conversational text in SemEval-2024 Task 3."
+
+      - title: Forecasting of PM2.5 level at an AQMD station - using nearby stations’ data
+        link: "https://github.com/jooseokLeeCU/AirQualityLevelForecasting"
+        tagline: "Building a **CNN-based** machine learning model to predict PM2.5 levels at stations without monitoring capabilities using spatiotemporal correlations with nearby stations' data."
+
+      - title: Bike sharing demands prediction
+        link: "https://github.com/jooseokLeeCU/BikeSharingDemandPrediction"
+        tagline: "Developed an **XGBoost regression model** to predict bike-sharing demand in Seoul"
+
+publications:
+    title: Publications & Patents
+    intro: |
+      Publications & Patents
+    papers:
+      - title: Dynamic human resource selection for business process exceptions
+        link: "#"
+        authors: Jooseok Lee, Seunghoon Lee, Jinwoo Kim, Injun Choi
+        conference: Knowledge and Process Management Journal, Vol 26, Issue 1, pp23-31, January/March 2019
+
+      - title: An integrated process-related risk management approach to proactive threat and opportunity handling - A framework and rule language
+        link: "#"
+        authors: Jinwoo Kim, Junyoun Lee, Jooseok Lee, Injun Choi
+        conference: Knowledge and Process Management, Vol 24, Issue 1, pp23-37, January/March 2017.
+
+      - title: Context-adaptability for process-oriented knowledge management - Beyond context-awareness
+        link: "#"
+        authors: Jooseok Lee, Injun Choi, Hokyeom Kim, Seunghoon Lee, Young Ryu
+        conference: Workshop on Information Technologies and Systems 2017, Seoul, South Korea
+
+      - title: Recommending suitable alternative performers using process mining techniques - Towards smart organization
+        link: "#"
+        authors: Jooseok Lee, Seunghoon Lee, Jinwoo Kim, Injun Choi
+        conference: Proc. of the 18th International Conference on Industrial Engineering, Seoul, South Korea
+
+      - title: A Methodology for Modeling and Managing Entrepreneurial Business Process
+        link: "#"
+        authors: Sanghyun Sung, Jooseok Lee, Injun Choi
+        conference: Proc. of Society of Open Innovation - Technology, Market, and Complexity (SOItmC) 2016, SJSU California, USA
+
+      - title: METHOD FOR RECOMMENDING GAME GOODS (Korean Patent)
+        link: "#"
+        authors: Registration date - July 28, 2022
+        conference: Registration no. - 1020200126557
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: SQL & Bigquery & Looker Studio
+        level: 98%
+
+      - name: Machine Learning & Scikit-learn & Numpy & Pandas
+        level: 98%
+
+      - name: Apache Airflow
+        level: 95%
+
+      - name: Keras & Tensorflow & PyTorch
+        level: 93%
+
+      - name: Kubernetes & Docker
+        level: 85%
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+certifications:
+      title: Others
+      list:
+        - name: Graduate Student visitor
+          start: 2023.06
+          end: 2023.08
+          organization: National Center for Atmospheric Research (NCAR)
+          credentialid:
+          credentialurl: 
+          credentialname: 
+          details: |
+            - Responsible for maintaining and operating the WASPP, a system developed by a former researcher for air sampling using a DJI Matrice 600 Pro drone, Raspberry Pi, Valco valve, and meteorological sensors.
+            - Refactored Python code for the drone canister system, optimizing performance and reliability.
+            - Adapted the system to meet current operational requirements, ensuring seamless communication between components using GPIO and I2C protocols.
+            - Deployed the WASPP drone canister system at the ASCENT (Atmospheric Science and Chemistry mEasurement NeTwork) Denver site.
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
