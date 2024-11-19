@@ -114,10 +114,11 @@ experiences:
         logo: assets/images/netmarble.jpg
         details: |
           -	*User Behavior Analysis for Strategic Decision-Making*: Analyzed millions of game user behaviors with **SQL (BigQuery)** and **Python** to drive actionable insights for product strategy and decision-making.
-          -	*Data Visualization & Reporting*: Delivered insights to stakeholders by designing and maintaining dashboards in **Looker** and automating data pipelines with **Airflow**.
-          -	*Revenue Prediction*: Developed **CNN** and **Prophet-based models** to predict revenue for new mobile games, providing actionable insights to product teams.     
+          - *Churn Prediction*: Built **Deep Learning**, **XGBoost**, and **GLMs churn predictions** models of mobile game users using **Scikit-learn**, **Tensorflow**, **Keras**, and **PyTorch**, providing actionable insights to product teams.
+          - *Segmentation & Recommendations*: Derived **user segments** based on their behaviors and developed a **segment-based item recommendation system** for a global mobile game with **BigQueryML**, achieving a 5% increase in sales growth rate.
           -	*Data Storytelling & Analysis*: Led **root cause analysis** with regression modeling, identifying issues with new-user incentives and boosting **buying rates by 26%** through actionable recommendations.
-          -	*Clustering & Recommendations*: Developed a **clustering-based recommendation system** for a global mobile game, driving a **5% increase in sales growth rate** through targeted user behavior segments.
+          - *Revenue Forecast*: Built *Prophet-based revenue forecasting models* for mobile games, offering actionable insights to product teams regarding underlying prediction drivers.
+          -	*Data Visualization & Reporting*: Delivered insights to stakeholders by designing and maintaining dashboards in **Looker** and automating data pipelines with **Airflow**.
           -	*A/B Testing*: Conducted in-depth **A/B testing** with **t-tests** to validate the effectiveness of recommendation system and to optimize it.
 
 projects:
@@ -230,10 +231,10 @@ certifications:
           credentialurl: 
           credentialname: 
           details: |
-            - Responsible for maintaining and operating the WASPP, a system developed by a former researcher for air sampling using a DJI Matrice 600 Pro drone, Raspberry Pi, Valco valve, and meteorological sensors.
-            - Refactored Python code for the drone canister system, optimizing performance and reliability.
-            - Adapted the system to meet current operational requirements, ensuring seamless communication between components using GPIO and I2C protocols.
-            - Deployed the WASPP drone canister system at the ASCENT (Atmospheric Science and Chemistry mEasurement NeTwork) Denver site.
+            - Responsible for maintaining and operating the WASPP, a system developed by a former researcher for air sampling using a **DJI Matrice 600 Pro drone**, **Raspberry Pi**, **Valco valve**, and **meteorological sensors**.
+            - Refactored **Python** code for the drone canister system, optimizing performance and reliability.
+            - Adapted the system to meet current operational requirements, ensuring seamless communication between components using **GPIO** and **I2C** protocols.
+            - Deployed the WASPP drone canister system at the **ASCENT** (Atmospheric Science and Chemistry mEasurement NeTwork) Denver site.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
