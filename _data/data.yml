@@ -134,6 +134,11 @@ projects:
         link: "https://github.com/jooseokLeeCU/AirQualityLevelForecasting"
         tagline: "Building a **CNN-based** machine learning model to predict PM2.5 levels at stations without monitoring capabilities using spatiotemporal correlations with nearby stations' data."
 
+      - title: League of Legends Analytic & Recommendation Platform with Kubernetes
+        link: "https://github.com/jooseokLeeCU/LeagueOfLegentAnalyticsPlatformWithKubernetes"
+        tagline: "Leveraging **Kubernetes**, **Flask**, and **Distributed Databases** to Power Scalable, Data-Driven Player Recommendations for League of Legends."
+
+
       - title: Bike sharing demands prediction
         link: "https://github.com/jooseokLeeCU/BikeSharingDemandPrediction"
         tagline: "Developed an **XGBoost regression model** to predict bike-sharing demand in Seoul"
